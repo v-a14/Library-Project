@@ -40,7 +40,6 @@ class Display {
                       <td>${localBookObj[i].name}</td>
                       <td>${localBookObj[i].author}</td>
                       <td>${localBookObj[i].type}</td>
-                      // this is the button for delete, it will call deleteNote function outside thiis class 
                       <td><button id = "${i}" onclick = "deleteNote(this.id)" class="btn btn-success">Delete Book</button></td>
                 </tr>`;
     }
